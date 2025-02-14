@@ -64,6 +64,7 @@ template {
 a {
     background-color: transparent;
     text-decoration: none;
+    color: #fff!important;
 }
 
 a:active,
@@ -224,10 +225,16 @@ textarea {
 body,
 h1,
 h2,
-h3,
+
 h4,
 h5,
 h6 {
+    font-family: "Lato", sans-serif;
+
+}
+
+h3 {
+    color: #fff!important;
     font-family: "Lato", sans-serif;
 }
 
@@ -595,7 +602,7 @@ a {
 .w3-sidebar {
     height: 100%;
     width: 200px;
-    background-color: #fff;
+    background-color: #6b8d53;
     position: fixed!important;
     z-index: 1;
     overflow: auto
@@ -648,7 +655,13 @@ a {
 
 .w3-bar {
     width: 100%;
-    overflow: hidden
+    overflow: hidden;
+    color: #6b8d53
+}
+
+.navbar-scrolled {
+    background-color: #6b8d53 !important; /* Custom color */
+    transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 .w3-center .w3-bar {
@@ -860,6 +873,10 @@ a {
     }
 }
 
+.w3-forestgreen{
+    color: #6b8d53;
+}
+
 .w3-rest {
     overflow: hidden
 }
@@ -1000,6 +1017,7 @@ a {
 .w3-top,
 .w3-bottom {
     position: fixed;
+    color: 6b8d53;
     width: 100%;
     z-index: 1
 }
@@ -1683,6 +1701,11 @@ a {
     background-color: #fff!important
 }
 
+.w3-forestgreen {
+    color: #000!important;
+    background-color: #6b8d53!important;
+}
+
 .w3-black,
 .w3-hover-black:hover {
     color: #fff!important;
@@ -1695,6 +1718,15 @@ a {
     color: #fff!important;
     background-color: #000!important;
 }
+
+.photo-container {
+    background-color: #6b8d53; /* Forest green color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Space inside the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow */
+    margin: 150px; /* Optional: space around the container */
+}
+
 
 .w3-grey,
 .w3-hover-grey:hover,
@@ -1717,7 +1749,7 @@ a {
 .w3-dark-gray,
 .w3-hover-dark-gray:hover {
     color: #fff!important;
-    background-color: #616161!important
+    background-color: #6b8d53 !important
 }
 
 .w3-pale-red,
@@ -2134,6 +2166,10 @@ a {
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+}
+
+.w3-padding {
+    padding-top: 100px
 }
 
 .card__snippet {
